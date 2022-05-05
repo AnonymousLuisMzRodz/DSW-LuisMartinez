@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel=StyleSheet href="css/estilosf.css" type="text/css" media=screen>
+    <link rel="icon" href="imagenes/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Pagina Principal</title>
+</head>
+
+<body id="mb">
+    <div class="contenedor">
+        <header id="hd">
+            <div class="logo">
+                <img src="imagenes/logo.png" width="150" alt="">
+                <a href="index.html">Bootstrap Intro
+                </a>
+            </div>
+
+            <ul class="nav">
+                <li><a href="index.html" id="ac">Inicio</a></li>
+                <li><a href="#" id="ac"> Temas</a>
+                    <ul>
+                        <li><a href="tema1.html" id="ac">Etiquetas semánticas</a></li>
+                        <li><a href="tema2.html" id="ac"> CSS Grid</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" id="ac">Recursos</a>
+                    <ul>
+                        <li><a href="recurso1.html" id="ac">Contextualizando</a></li>
+                        <li><a href="recurso2.html" id="ac">Layout Web </a></li>
+
+                    </ul>
+                </li>
+                <li><a href="#" id="ac">Aprendizaje</a>
+                    <ul>
+                        <li><a href="actividad1.html" id="ac">Actividad 1</a></li>
+                        <li><a href="actividad2.html" id="ac">Actividad 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="autor.html" id="ac">Autor</a></li>
+            </ul>
+        </header>
+
+        <section class="main">
+            <article>
+                <br>
+                <br>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="imagenes/a.png" alt="Los Angeles" style="width:100%;">
+                        </div>
+
+                        <div class="item">
+                            <img src="imagenes/c.png" alt="Chicago" style="width:100%;">
+                        </div>
+
+                        <div class="item">
+                            <img src="imagenes/b.png" alt="New york" style="width:100%;">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </article>
+            <article>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="imagenes/b1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Bootstrap fue desarrollado por Mark Otto y Jacob Thornton de Twitter, y fue
+                            originalmente llamado Blueprint de Twitter.
+                            La idea nació como un framework para fomentar la consistencia entre las herramientas
+                            internas..</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="imagenes/b1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Antes de Bootstrap se habían implementado diversas bibliotecas para el
+                            desarrollo de interfaces de usuario; sin embargo,
+                            su uso generó inconsistencias y una gran carga de trabajo en su mantenimiento.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="imagenes/b1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">A pesar de que su desarrollo es original de Twitter, Bootstrap fue liberado
+                            bajo licencia MIT en el 2011 y
+                            continúa en un repositorio de GitHub. Actualmente, es el segundo proyecto más destacado en
+                            GitHub; además es usado por la NASA y la MSNBC, entre otras organizaciones.
+
+                            .</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="imagenes/b1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Bootstrap es una potente herramienta para crear interfaces de usuario
+                            pulcras y adaptables a todo tipo de dispositivos y pantallas
+                            , sea cual sea su tamaño. Estas son las características de la cuarta y más reciente versión
+                            de Bootstrap:
+
+                        </p>
+                    </div>
+                </div>
+
+            </article>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Características de Bootstrap 4.0
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Cambio de LESS a SASS.</li>
+                                <li>Archivo reboot.css, para hacer nuestros “reset CSS”.</li>
+                                <li>No más soporte para IE8.</li>
+                                <li> Se mejoraron los Tooltips y Popovers gracias a la librería JS: Tether.</li>
+                                <li>Soporte para Flexbox.</li>
+                                <li>Se remplazaron los: well, thumbnails y panels por los Card.</li>
+                                <li>Mejoras en el sistema de grid.</li>
+                                <li>Se agregó soporte para Jquery 2.</li>
+                                <li>Como unidades de medida se usarán ahora “rem” y “em”.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                           Ventajas
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body"> 
+                        Uno de los cambios más significativos, fue la llegada del concepto responsive, es decir, diseños que se adaptan al tamaño de pantalla de cualquier dispositivo capaz de navegar por la red.
+                            Ya hemos dicho que Bootstrap se ha convertido en una de las herramientas más utilizadas hoy en día a la hora de realizar cualquier diseño web. Esto es debido a algunas de sus principales
+                             características, que lo han hecho muy atractivo a los ojos de los desarrolladores.
+                            <br>
+                            a) Fácil e intuitivo: A pesar de las muchas opciones y posibilidades que ofrece este framework, su curva de aprendizaje es muy rápida, más para aquellas personas que tengan conocimientos de diseño web. Alguien que no sepa nada de estilos CSS podría ser capaz de crear un portal totalmente responsive, utilizando algunas de las muchas etiquetas que se ofrece para ello.
+                            <br>
+                            b) Compatibles con todos los navegadores: Uno de los principales problemas a la hora de diseñar un portal web es hacer que éste se vea de forma similar en cualquier navegador web del mercado. Esto que puede suponer un gran trabajo, Bootstrap lo convierte en algo muy sencillo ya que su código ya viene optimizado para ello..</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Desventajas
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Como suele ocurrir con la mayoría de las cosas no todo es de color de rosa, sino que también nos podemos encontrar sus puntos negativos.
+                            <br>
+                             Entre las principales desventajas que nos podemos encontrar a la hora de utilizar Bootstrap están:
+                             <br><br>
+                            a) Optimización del código:
+                            Ya hemos comentado que Bootstrap ofrece un amplio abanico de elementos visuales ya desarrollados para ser utilizados directamente en el diseño de cualquier portal web. El problema es que no siempre vamos a utilizar todos estos elementos, sino que usaremos una pequeña parte de ellos. A pesar de esto será necesario cargar todo el framework para su correcto funcionamiento, lo que puede provocar que aumente un poco la velocidad de carga del sitio./div>
+                    <br><br>
+                    b) Código HTML más complejo: A la hora de realizar el diseño del sitio, deberemos adaptarnos a las convenciones de este framework para poder utilizar determinados elementos,
+                     convenciones que en muchas ocasiones se tratan de varios contenedores “div” anidados para mostrar un determinado elemento. Esto se traduce en un código más complejo del que sería necesario si lo hiciésemos a mano.
+                    
+                        </div>
+                </div>
+            </div>
+            <BR>
+          <article>
+            <iframe width='100%'  height='600px'  scrolling='yes'  src='https:&#x2F;&#x2F;www.goconqr.com&#x2F;es&#x2F;p&#x2F;36515417-test-boostrap-unad-quizzes?frame=true'  style='border: 1px solid #ccc'  allowfullscreen  webkitallowfullscreen  mozallowfullscreen  oallowfullscreen  msallowfullscreen></iframe><a href='https:&#x2F;&#x2F;www.goconqr.com&#x2F;es&#x2F;tests'>Test creado con GoConqr por luis miguel martinez</a>
+          </article>
+        </section>
+        <footer id="ft">
+            Luis Miguel Martinez Rodriguez, mluis9188@gmail.com<br>
+            29 de Marzo del 2022
+        </footer>
+    </div>
+
+</body>
+
+</html>

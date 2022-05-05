@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=StyleSheet href="css/estilos.css" type="text/css" media=screen>
+    <title>CSS Grid</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="logo">
+                <img src="imagenes/logo.png" width="150" alt="">
+                <a href="index.html">Etiquetas semánticas, CSS Grid
+                </a>
+            </div>
+
+            <ul class="nav">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Temas</a>
+                    <ul>
+                        <li><a href="tema1.html">Etiquetas semánticas</a></li>
+                        <li><a href="tema2.html">CSS Grid</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Recursos</a>
+                    <ul>
+                        <li><a href="recurso1.html">Contextualizando</a></li>
+                        <li><a href="recurso2.html">Layout Web </a></li>
+
+                    </ul>
+                </li>
+                <li><a href="#">Aprendizaje</a>
+                    <ul>
+                        <li><a href="actividad1.html">Actividad 1</a></li>
+                        <li><a href="actividad2.html">Actividad 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="autor.html">Autor</a></li>
+            </ul>
+        </header>
+
+        <section class="main">
+            <article>
+                 Temas / <b>CSS Grid</b><br>
+                <img src="imagenes/banner2.png" height="auto" width="100%">
+                 <h3>CSS Grid </h3>
+                 El internet móvil presenta un gran número de desafíos para los diseñadores de páginas web: debido a la enorme variedad de diseños de los dispositivos 
+                 móviles, es imposible saber qué formato tiene la pantalla en la que se visualizará el contenido web. Por esto, es esencial que los elementos individuales
+                  (cajas de texto, gráficos, elementos interactivos) se distribuyan de forma independiente y al mismo tiempo de forma clara, teniendo en mente las respectivas
+                   condiciones de espacio dadas por cada pantalla.<br>
+
+                 Hace un tiempo se trabajaba con los llamados floats, pero es una técnica compleja que daba lugar a muchos errores. Hoy los diseñadores cuentan con dos métodos para implementar un diseño dinámico: además de CSS grid, también se puede usar Flexbox. Sin embargo, las dos técnicas difieren en algunos aspectos.
+                 
+                 Flexbox es unidimensional. Esto quiere decir que los elementos solo se pueden mover a lo largo de un eje. En cambio, un diseño CSS grid ofrece al diseñador web dos dimensiones para la colocación de los objetos porque, en lugar de solo un eje, permite crear una rejilla con filas y columnas
+            </article>
+                
+                <article>
+                    <h3>Propiedades mas usadas con ejemplos:</h3>
+                    <h4>Display</h4>
+                    La propiedad display define al elemento como un contenedor de cuadrícula y establece un nuevo contexto de formato de cuadrícula para su contenido.
+                    <img src="imagenes/img8.jpg" height="auto" width="100%">
+                    <h4>Propiedades: grid-template-columns, grid-template-rows, grid-template-areas y grid-template
+                    </h4>
+                    La propiedad grid-template-columns define las columnas y grid-template-rows las filas de la cuadrícula. La propiedad grid-template-areas define una plantilla de cuadrícula haciendo referencia a los nombres de las áreas de cuadrícula que se especifican con la propiedad grid-area de los elementos hijos.
+                    La propiedad grid-template es una abreviatura para establecer grid-template-columns y grid-template-rows en una sola declaración.
+                    <img src="imagenes/img9.jpg" height="auto" width="100%">
+                    <h4>Propiedades: grid-column-gap, grid-row-gap y grid-gap</h4>
+                    La propiedad grid-column-gap (o column-gap) define el espacio entre columnas y la propiedad grid-row-gap (o row-gap) define el espacio entre filas
+                    . La propiedad grid-gap (o gap) define el espacio entre filas y columnas.                
+                    <img src="imagenes/img10.jpg" height="auto" width="100%">
+                    <h4>justify-items</h4>
+                    La propiedad justify-items alinea los elementos de la cuadrícula a lo largo del eje inline (eso es horizontal en nuestro caso).       
+                    <img src="imagenes/img11.jpg" height="auto" width="100%">
+                      <h4>align-items</h4>
+                     La propiedad align-items alinea los elementos de la cuadrícula a lo largo del eje block (vertical en nuetro caso).
+                    <img src="imagenes/img12.jpg" height="auto" width="100%">
+                     <h4>place-items</h4>
+                    La propiedad place-items alinea los elementos de la cuadrícula a lo largo del eje inline y block al mismo tiempo.
+                    <img src="imagenes/img13.jpg" height="auto" width="100%">
+                     <h4>justify-content</h4>
+                     La propiedad justify-content alinea el contenido de la cuadrícula a lo largo del eje inline (horizontal en nuetro caso).
+                    <img src="imagenes/img14.jpg" height="auto" width="100%">
+                    <i> Code, E. (30 de 08 de 2020). platzi. Obtenido de https://platzi.com/blog/css-grid-cheat-sheet-contenedores/</i>
+
+                </article>
+                 
+        </section>
+        <aside>
+            <iframe
+            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD&tabs=timeline&width=250&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+            width="250" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+            allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </aside>
+
+        <footer>
+                Luis Miguel Martinez Rodriguez, mluis9188@gmail.com<br>
+                29 de Marzo del 2022
+        </footer>
+    </div>
+
+</body>
+
+</html>
